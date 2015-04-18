@@ -1,6 +1,0 @@
-c:\users\miroling\documents\visual studio 2013\Projects\Chattr\Chattr\bin\Debug\Chattr.exe.config
-c:\users\miroling\documents\visual studio 2013\Projects\Chattr\Chattr\bin\Debug\Chattr.exe
-c:\users\miroling\documents\visual studio 2013\Projects\Chattr\Chattr\bin\Debug\Chattr.pdb
-c:\users\miroling\documents\visual studio 2013\Projects\Chattr\Chattr\obj\Debug\Chattr.csprojResolveAssemblyReference.cache
-c:\users\miroling\documents\visual studio 2013\Projects\Chattr\Chattr\obj\Debug\Chattr.exe
-c:\users\miroling\documents\visual studio 2013\Projects\Chattr\Chattr\obj\Debug\Chattr.pdb
