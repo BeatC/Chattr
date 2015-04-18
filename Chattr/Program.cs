@@ -10,7 +10,7 @@ namespace Chattr
     {
         static void Main(string[] args)
         {
-            User me = new User("BeatCoder", "password", Permission.WRITE);
+            User me = new User("BeatCoder", "password", Permission.SUDO);
             Lobby frontend = me.CreateLobby("Frontend Development");
 
             User johnDoe = new User("JohnDoe", "pass", Permission.WRITE);
