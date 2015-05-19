@@ -1,0 +1,28 @@
+﻿<Window x:Class="ChattrGUI.SignIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chattr. Sign In" Height="300" Width="300" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label HorizontalAlignment="Center" FontFamily="Segoe UI" FontSize="27" FontWeight="ExtraLight" Margin="10">CHATTR</Label>
+        <Label Grid.Row="1" Margin="30,0">Username:</Label>
+        <TextBox Grid.Row="2" Width="225" Margin="5" Padding="5" Text=""></TextBox>
+        <Label Grid.Row="3" Margin="30,0">Password:</Label>
+        <PasswordBox Grid.Row="4" Width="225" Padding="5" Margin="5"></PasswordBox>
+        <Grid Grid.Row="5" Margin="0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button HorizontalAlignment="Center" Background="#63aed5" Foreground="White" VerticalAlignment="Center" Padding="20,5">Sign In</Button>
+            <Button Grid.Column="1" Background="#63aed5" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="18,5">Sign Up</Button>
+        </Grid>
+    </Grid>
+</Window>
